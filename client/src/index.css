@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-stone-950 text-stone-100 antialiased;
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+::selection {
+  @apply bg-amber-500/30;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #44403c transparent;
+}
+
+.lesson-content h1 { @apply text-2xl font-semibold mt-4 mb-2; }
+.lesson-content h2 { @apply text-xl font-semibold mt-4 mb-2; }
+.lesson-content h3 { @apply text-lg font-semibold mt-3 mb-1.5; }
+.lesson-content p { @apply my-2 leading-relaxed text-stone-300; }
+.lesson-content ul { @apply list-disc pl-6 my-2 text-stone-300; }
+.lesson-content ol { @apply list-decimal pl-6 my-2 text-stone-300; }
+.lesson-content a { @apply text-amber-400 underline; }
+.lesson-content blockquote { @apply border-l-2 border-amber-500/50 pl-4 my-3 text-stone-400; }
+.lesson-content code { @apply bg-stone-900 px-1.5 py-0.5 rounded text-sm; }
+.lesson-content pre { @apply bg-stone-900 p-4 rounded-xl overflow-x-auto my-3 text-sm; }
+.lesson-content img { @apply max-w-full rounded-xl my-3; }
+.lesson-content table { @apply w-full my-3 text-sm; }
+.lesson-content th, .lesson-content td { @apply border border-stone-800 px-3 py-1.5 text-left; }

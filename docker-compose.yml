@@ -1,0 +1,18 @@
+services:
+  lessonforge:
+    build: .
+    container_name: lessonforge
+    restart: unless-stopped
+    ports:
+      - "5364:5364"
+    environment:
+      - PORT=5364
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-change-me}
+      - DB_PATH=/app/data/lessonforge.db
+      - BASE_URL=${BASE_URL:-}
+      - STRIPE_SECRET_KEY=${STRIPE_SECRET_KEY:-}
+    volumes:
+      - lessonforge-data:/app/data
+
+volumes:
+  lessonforge-data:
