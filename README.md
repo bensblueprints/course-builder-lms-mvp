@@ -53,7 +53,7 @@ docker compose up -d   # VPS mode, SQLite + uploads persisted in a volume
 
 ## ☕ Skip the setup — get the 1-click installer
 
-Grab the packaged Windows installer on Whop: **https://whop.com/onetime-suite**
+Grab the packaged Windows installer on Whop: **https://whop.com/benjisaiempire/lessonforge
 
 ## Tech stack
 
