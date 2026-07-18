@@ -1,5 +1,9 @@
 # 🎓 Lessonforge
 
+## Demo
+
+VIDEO-PLACEHOLDER
+
 **Your courses, your platform, your revenue. Pay once — no monthly fee, no per-sale cut.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
