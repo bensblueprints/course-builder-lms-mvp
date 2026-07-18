@@ -2,7 +2,11 @@
 
 ## Demo
 
-VIDEO-PLACEHOLDER
+
+
+https://github.com/user-attachments/assets/1136f0bc-f248-412b-9a7e-b21b2f2bcaa1
+
+
 
 **Your courses, your platform, your revenue. Pay once — no monthly fee, no per-sale cut.**
 
